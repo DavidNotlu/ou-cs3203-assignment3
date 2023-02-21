@@ -17,6 +17,12 @@ class program {
              product *= *it;
         return product;
     }
+    //Reverses given list
+    vector<int> reverseList(vector<int> list) {
+        reverse(list.begin(), list.end());
+        return list;
+    }
+    
     // Main function
     int main() {
         int input;
