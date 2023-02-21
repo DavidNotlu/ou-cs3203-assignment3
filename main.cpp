@@ -17,7 +17,21 @@ class program {
              product *= *it;
         return product;
     }
-
+    // Main function
+    int main() {
+        int input;
+        vector<int> vector;
+        // input elements for vector list
+        while(cin>>input)
+        {
+            vector.push_back(input);
+        }
+        //prints out the sum and product funtion
+        cout<<"The Sum is: "<<sum(vector)<<endl;
+        cout<<"The Product is: "<<product(vector)<<endl;
+        
+        return 0;
+    }
 
 
 };
