@@ -1,4 +1,7 @@
-
+/**
+ Assignment3
+ David Lu
+ */
 #include <iostream>
 #include <vector>
 using namespace std;
